@@ -96,7 +96,7 @@ components:
     Pets:
       type: array
       items:
-        $ref: 'https://raw.githubusercontent.com/JaviervargasADL/canonicalDictionary/c33bdb7bd09d2a6c47b33fecaaa44efa52bd6642/dictionary.json'
+        $ref: 'https://raw.githubusercontent.com/JaviervargasADL/canonicalDictionary/c33bdb7bd09d2a6c47b33fecaaa44efa52bd6642/dictionary.json#/schemas/Pet'
     Error:
       required:
         - code
