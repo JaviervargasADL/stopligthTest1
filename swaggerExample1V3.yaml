@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
-  version: 1.0.1
-  title: Swagger Petstore
+  version: 1.0.4
+  title: Swagger Petstore v4
   license:
     name: MIT
 servers:
@@ -96,7 +96,8 @@ components:
     Pets:
       type: array
       items:
-        $ref: '#/components/schemas/Pet'
+        $ref: 'https://raw.githubusercontent.com/JaviervargasADL/canonicalDictionary/c33bdb7bd09d2a6c47b33fecaaa44efa52bd6642/dictionary.json#/schemas/Pet'
+      title: ''
     Error:
       required:
         - code
