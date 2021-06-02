@@ -1,0 +1,5 @@
+title: newSchema
+type: object
+properties:
+  id:
+    type: string
