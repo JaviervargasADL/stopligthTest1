@@ -6,6 +6,8 @@ info:
     name: MIT
 servers:
   - url: 'http://petstore.swagger.io/v1'
+  - url: 'http://127.0.0.1:4010'
+    description: ''
 paths:
   /pets:
     get:
