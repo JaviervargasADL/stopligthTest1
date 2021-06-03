@@ -34,7 +34,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Pets'
+                $ref: 'https://raw.githubusercontent.com/JaviervargasADL/canonicalDictionary/main/models/pet2.yaml'
         default:
           description: unexpected error
           content:
@@ -74,7 +74,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Pets'
+                $ref: 'https://raw.githubusercontent.com/JaviervargasADL/canonicalDictionary/main/models/pet2.yaml'
         default:
           description: unexpected error
           content:
