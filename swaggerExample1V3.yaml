@@ -95,9 +95,9 @@ components:
           type: string
     Pets:
       type: array
-      items:
-        $ref: 'https://raw.githubusercontent.com/JaviervargasADL/canonicalDictionary/main/models/pet2.yaml'
       title: ''
+      items:
+        $ref: 'https://raw.githubusercontent.com/JaviervargasADL/stopligthTest1/main/models/newSchema.yaml?token=AUG6DMFUMD3L53OPKG4XECTAW7VHY'
     Error:
       required:
         - code
