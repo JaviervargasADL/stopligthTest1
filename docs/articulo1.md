@@ -1,6 +1,4 @@
-# articulo1
-
-The beginning of an awesome article...
+#Ejemplo llmado a API
 
 ```json http
 {
