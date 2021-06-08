@@ -1,4 +1,4 @@
-#Ejemplo llmado a API
+#Ejemplo llamado a API
 
 ```json http
 {
